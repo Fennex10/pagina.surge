@@ -62,10 +62,10 @@ Copia el token que genera — lo necesitarás para el siguiente paso.
 Dentro de:
 
 ```yaml
-run: surge ./ --domain nombre-de-tu-pagina.surge.sh --token $SURGE_TOKEN
+run: surge ./ --domain dewrin-pagina.surge.sh --token $SURGE_TOKEN
 ```
 
-Cambia `nombre-de-tu-pagina.surge.sh` por el dominio que quieras usar (o que te haya asignado Surge). Ese será el dominio donde se verá tu página.
+Cambia `dewrin-pagina.surge.sh` por el dominio que quieras usar (o que te haya asignado Surge). Ese será el dominio donde se verá tu página.
 
 ---
 
