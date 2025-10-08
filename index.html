@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Despliegue Automático</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: #004aad;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background: #003b8b;
+            text-align: center;
+            padding: 0.7rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #004aad;
+            border-bottom: 2px solid #004aad;
+            padding-bottom: 5px;
+        }
+
+        footer {
+            background: #222;
+            color: #ccc;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 3rem;
+        }
+
+        footer a {
+            color: #66a3ff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .button {
+            display: inline-block;
+            background: #004aad;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background: #003b8b;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>🚀 Despliegue Automático con GitHub Actions y Surge.sh</h1>
+        <p>Un ejemplo práctico de CI/CD para desarrolladores web</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#proyecto">Proyecto</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="inicio">
+        <h2>¿Qué es CI/CD?</h2>
+        <p>
+            CI/CD significa Integración y Despliegue Continuos. Es una práctica que permite automatizar
+            el proceso de desarrollo y publicación de una aplicación o sitio web, asegurando que cada
+            cambio en el código se pruebe y despliegue automáticamente.
+        </p>
+        <p>
+            En este ejemplo, estamos utilizando <strong>GitHub Actions</strong> como herramienta de automatización
+            y <strong>Surge.sh</strong> como servicio gratuito de alojamiento estático.
+        </p>
+        <a class="button" href="https://github.com/features/actions" target="_blank">Aprender más sobre GitHub
+            Actions</a>
+    </section>
+
+    <section id="proyecto">
+        <h2>Sobre este Proyecto</h2>
+        <p>
+            Este sitio fue creado con HTML, y cada vez que se realiza un <em>push</em> al repositorio de GitHub,
+            una acción automatizada se encarga de desplegar los archivos directamente en Surge.sh.
+        </p>
+        <ul>
+            <li>✅ Creado con HTML puro</li>
+            <li>✅ Desplegado automáticamente con GitHub Actions</li>
+            <li>✅ Hospedado en Surge.sh</li>
+            <li>✅ Totalmente gratuito y rápido de configurar</li>
+        </ul>
+        <p>
+            El flujo de trabajo permite mantener el sitio siempre actualizado sin necesidad de subir manualmente los
+            archivos.
+        </p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes dudas o quieres implementar algo similar? Puedes contactarme o probarlo tú mismo.</p>
+        <p><strong>Email:</strong> ejemplo@correo.com</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/" target="_blank">https://github.com/</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Despliegue Automático CI/CD | Creado para prácticas educativas.</p>
+        <p>Visita <a href="https://surge.sh" target="_blank">Surge.sh</a> para más información.</p>
+    </footer>
+</body>
+
+</html>
